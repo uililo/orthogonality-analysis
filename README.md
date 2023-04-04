@@ -2,7 +2,7 @@
 
 The CPC-big model and k-means checkpoints used in [Analyzing Speaker Information in Self-Supervised Models to Improve Zero-Resource Speech Processing](https://arxiv.org/abs/2108.00917).
 
-## Basic Usage
+## Encode CPC feature
 
 ```python
 import torch, torchaudio
@@ -38,3 +38,9 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
+
+## Collapse the speaker subspace
+
+To collapse the speaker subspace, run `compute_speaker_pca` and then `collapse_speaker_dimension`.
+To evaluate, run `probe_acc` to perform speaker & phoneme classification. To perform the ABX test, use [ZeroSpeech Challenge 2021 Python package
+](https://github.com/zerospeech/zerospeech2021).

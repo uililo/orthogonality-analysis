@@ -23,8 +23,8 @@ def encode_dataset(args):
 
         wav = wav.unsqueeze(0).cuda()
         x = cpc.encode(wav).squeeze().cpu().numpy()
-        x = StandardScaler().fit_transform(x)
-        codes = kmeans.predict(x)
+#         x = StandardScaler().fit_transform(x)
+#         codes = kmeans.predict(x)
 
         relative_path = in_path.relative_to(in_dir)
         out_path = out_dir / relative_path.with_suffix("")

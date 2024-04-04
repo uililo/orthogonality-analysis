@@ -1,5 +1,10 @@
 # Orthogonality analysis
 
+This repository is obsolete.
+More up-to-date code can be found in repository [orthogonal-subspaces](https://github.com/uililo/orthogonal-subspaces).
+
+## CPC model
+
 The CPC-big model and k-means checkpoints used in [Analyzing Speaker Information in Self-Supervised Models to Improve Zero-Resource Speech Processing](https://arxiv.org/abs/2108.00917).
 
 ## Encode CPC feature

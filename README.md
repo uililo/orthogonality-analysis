@@ -1,6 +1,6 @@
 # Orthogonality analysis
 
-This repository is obsolete.
+**This repository is obsolete.**
 More up-to-date code can be found in repository [orthogonal-subspaces](https://github.com/uililo/orthogonal-subspaces).
 
 ## CPC model
